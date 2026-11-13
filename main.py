@@ -34,7 +34,7 @@ def on_startup():
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello FastAPI + SQLModel"}
+    return {"message": "Hello FastAPI"}
 
 # ۳. یک API برای ساختن کاربر جدید در دیتابیس
 @app.post("/heroes/")
